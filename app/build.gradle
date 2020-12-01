@@ -10,7 +10,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.notichair_1111"
+        applicationId "com.example.notichair_Real"
         minSdkVersion 19
         targetSdkVersion 30
         multiDexEnabled true

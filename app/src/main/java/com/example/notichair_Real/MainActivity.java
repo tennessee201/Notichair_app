@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // 로그인 성공
                             Toast.makeText(MainActivity.this, R.string.success_login, Toast.LENGTH_SHORT).show();
-                            Intent intent=new Intent(getApplicationContext(), MainActivity.class);
+                            Intent intent=new Intent(getApplicationContext(), after_login.class);
                             startActivity(intent);
                             finish();
                         } else {
