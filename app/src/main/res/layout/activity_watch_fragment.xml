@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/youtube_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Youtube"
+        android:textAlignment="center"
+        android:textColor="#B52424"
+        android:textSize="25dp" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="224dp" />
+
+
+    <!--
+    //프라그먼트 내 youtube 연동용 프라그먼트
+    <fragment
+        android:id="@+id/youtube_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="info_sub">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    </fragment>-->
+
+
+
+</LinearLayout>

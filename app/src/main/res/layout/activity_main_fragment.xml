@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_fragment"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/today_time_Button"
+        android:layout_width="299dp"
+        android:layout_height="148dp"
+        android:src="@drawable/_0201124_232710" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="63dp" />
+
+    <ImageButton
+        android:id="@+id/alarm_Button"
+        android:layout_width="296dp"
+        android:layout_height="202dp"
+        android:src="@drawable/_0201125_022712" />
+
+</LinearLayout>

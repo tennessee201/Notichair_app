@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.notichair_Real">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:name="com.example.notichair_Real.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="com.example.notichair_Real.main_fragment"
+            tools:ignore="Instantiatable" />
+
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="2b0a53b2e6ad668f0cb163467e4389a1" />
+
+
+
+
+
+
+        <activity android:name="com.example.notichair_Real.SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.notichair_Real.MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name="com.example.notichair_Real.join_view" />
+        <activity android:name="com.example.notichair_Real.after_login" />
+        <activity
+            android:name="com.example.notichair_Real.GlobalApplication"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.example.notichair_Real.KakaoSDKAdapter"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.notichair_Real.setting_fragment"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.notichair_Real.watch_fragment"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.notichair_Real.sevendays_fragment"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.notichair_Real.mypage_fragment"
+            tools:ignore="Instantiatable" />
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+    </application>
+
+</manifest>

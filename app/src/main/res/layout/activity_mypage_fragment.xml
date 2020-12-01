@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".mypage_fragment">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="29dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="30"
+        android:gravity="center"
+        android:text="회원정보 수정하기"
+        android:textColor="@color/maincolor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/user_pass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#BDBDBD"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#BDBDBD" />
+
+    <EditText
+        android:id="@+id/check_pass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#BDBDBD"
+        android:ems="10"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#BDBDBD" />
+
+    <EditText
+        android:id="@+id/user_name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#BDBDBD"
+        android:ems="10"
+        android:hint="이름"
+        android:inputType="textPersonName"
+        android:textColor="#5D5D5D"
+        android:textColorHint="#BDBDBD" />
+
+    <Button
+        android:id="@+id/change_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="변경사항 저장하기"
+/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="99dp" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그아웃" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="13dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원 탈퇴" />
+
+</LinearLayout>

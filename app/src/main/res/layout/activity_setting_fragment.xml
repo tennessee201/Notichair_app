@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".setting_fragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="알람 시간 설정"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:entries="@array/hour_array" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="40dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="시"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:entries="@array/minute_array" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="40dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="분"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="알람음 설정"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="398dp"
+        android:layout_height="46dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="볼륨"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="278dp"
+            android:layout_height="32dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="진동"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <Button
+        android:id="@+id/timer_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="설정하기" />
+
+</LinearLayout>

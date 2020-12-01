@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "474803217902",
+    "firebase_url": "https://notichair1111.firebaseio.com",
+    "project_id": "notichair1111",
+    "storage_bucket": "notichair1111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474803217902:android:6fb393af28f27da0cb9aff",
+        "android_client_info": {
+          "package_name": "com.example.notichair_1111"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474803217902-10gr6c1fcv4fhopg38b5aiam7aibpe5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notichair_1111",
+            "certificate_hash": "14cf0ee28100f5ac765510629d219ff53aeae320"
+          }
+        },
+        {
+          "client_id": "474803217902-hj9sr6vlum8uen86e3g8ntb77ctrje32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAak2DfA_rbmD6aqKUil8CvesZt1w7mdog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474803217902-hj9sr6vlum8uen86e3g8ntb77ctrje32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

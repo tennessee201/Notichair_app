@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="영상시청"
+    android:id="@+id/menu_watch"
+    android:icon="@drawable/ic_baseline_ondemand_video_24"
+    />
+    <item android:title="알람설정"
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_baseline_timer_24"
+        />
+    <item android:title="홈"
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+    <item android:title="최근 일주일내역"
+        android:id="@+id/menu_sevendays"
+        android:icon="@drawable/ic_baseline_airline_seat_legroom_normal_24"
+        />
+    <item android:title="마이페이지"
+        android:id="@+id/menu_mypage"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+
+</menu>
