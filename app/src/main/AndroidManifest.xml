@@ -21,11 +21,6 @@
             android:name="com.kakao.sdk.AppKey"
             android:value="2b0a53b2e6ad668f0cb163467e4389a1" />
 
-
-
-
-
-
         <activity android:name="com.example.notichair_Real.SplashScreen"
             android:theme="@style/SplashTheme">
             <intent-filter>

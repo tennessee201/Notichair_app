@@ -90,7 +90,7 @@ public class join_view extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // 회원가입 성공
                             Toast.makeText(join_view.this, "Notichair에 오신 것을 환영합니다.", Toast.LENGTH_SHORT).show();
-                            Intent intent=new Intent(getApplicationContext(), MainActivity.class);
+                            Intent intent=new Intent(getApplicationContext(), after_login.class);
                             startActivity(intent);
                             UserInfo userinfo = new UserInfo(email, password);
                             cloudDB.collection("users").document(firebaseAuth.getUid()).set(userinfo);
